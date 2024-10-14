@@ -30,10 +30,10 @@ body {
 }
 
 .page {
-  margin: auto;
   background-color: #0f1b3d;
   background-image: url("../assets/images/bg-mobile.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
 }
 @media screen and (width>768px) {
