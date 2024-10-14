@@ -3,8 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="page">
+    <main class="background">
+      <div class="fylo-container">
+        <img src="/assets/images/logo.svg" alt="fylo logo" />
+        <div class="icons-group">
+          <div class="icon-background">
+            <img src="/assets/images/icon-document.svg" alt="icon document" />
+          </div>
+          <div class="icon-background">
+            <img src="/assets/images/icon-folder.svg" alt="icon folder" />
+          </div>
+          <div class="icon-background">
+            <img src="/assets/images/icon-upload.svg" alt="icon-upload" />
+          </div>
+        </div>
+      </div>
+      <div class="storage-container">
+        <p class="description">
+          You`ve used <span class="storage-text">815 GB</span> of your storage
+        </p>
+        <div class="storage-indicator">
+          <div class="slider"></div>
+          <p class="min-slider">0 GB</p>
+          <p class="max-slider">1000 GB</p>
+        </div>
+        <div class="storage-left">
+          <h2 class="storage-number">185</h2>
+          <p class="storage-description">GB LEFT</p>
+          <div class="tab-storage-left"></div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
